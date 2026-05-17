@@ -5,7 +5,7 @@ const date = new Date().getFullYear();
 
 const experience = [
   {
-  heading : `1+` , label: "years of shipping",
+    heading : `1+` , label: "years of shipping",
   },
   {
     heading : `10+` , label: "projects built",
