@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const date = new Date().getFullYear();
 
 const experience = [
@@ -26,7 +25,7 @@ const Hero = () => {
             <img
               src='/d3.png'
               alt="daredre"
-              className="w-full h-full object-fill "
+              className="w-full h-full object-cover"
             />
           </div>
        
@@ -55,19 +54,19 @@ const Hero = () => {
             </div>
 
            
-      </div>
-      <div>
-        <div className="hidden md:flex relative w-56 h-56 md:w-72 md:h-72 rounded-full border-2 border-border overflow-hidden text-center">
+       </div>
+       <div className='hidden md:flex justify-center md:justify-end flex-shrink-0'>
+         <div className="relative w-56 h-56 md:w-64 lg:w-72 md:h-64 lg:h-72 rounded-full border-2 border-border overflow-hidden text-center">
             
             <img
               src='/d3.png'
               alt="daredre"
-              className="w-full h-full object-fill "
+              className="w-full h-full object-cover"
             />
           </div>
        
-      </div>
-      </div>
+       </div>
+       </div>
     </div>
   )
 }
