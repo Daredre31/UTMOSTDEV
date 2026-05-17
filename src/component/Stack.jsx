@@ -31,6 +31,7 @@ const stackarray = [
      }
 ]
 const Stack = () => {
+  const colors = ['bg-blue-500', 'bg-purple-500', 'bg-pink-500', 'bg-green-500', 'bg-orange-500', 'bg-cyan-500'];
   return (
     <div className='p-4 mt-8'>
         <div className='md:w-3xl '>
@@ -57,9 +58,9 @@ const Stack = () => {
                         </div>
 
                         <div className='flex flex-wrap gap-2 px-4 mt-4'>
-                            {stack.sBody.map((btn) => (
+                            {stack.sBody.map((btn, index) => (
                                 
-                                    <button className='bg-tech-blue md:px-4 px-2 rounded-xl text-primary-glow '>{btn}</button>
+                                    <button key={btn} className={`${colors[index % colors.length]} md:px-4 px-2 rounded-xl text-white`}>{btn}</button>
                                 
                             ))}
                         </div>
