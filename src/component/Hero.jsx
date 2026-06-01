@@ -16,7 +16,7 @@ const experience = [
 
 const Hero = () => {
   return (
-    <div className='bg-gradient-mesh md:h-[800px] h-auto p-4 sm:p-6 w-full'>
+    <div className='bg-gradient-mesh md:h-[800px] h-auto p-4 sm:p-6 w-full ' id='Hero'>
        <div className='flex flex-col md:flex-row justify-between gap-6 sm:gap-8 mt-8 md:mt-16'>
       <div className='flex flex-col md:w-1/2'>
 

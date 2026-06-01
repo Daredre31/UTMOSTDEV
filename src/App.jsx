@@ -1,23 +1,23 @@
 import React from 'react'
-import Nav from './component/Nav'
-import Hero from './component/Hero'
+// import Nav from './component/Nav'
+// import Hero from './component/Hero'
 import { Route, Routes } from 'react-router-dom'
-import Stack from './component/Stack'
-import Think from './component/Think'
+// import Stack from './component/Stack'
+// import Think from './component/Think'
+import Home from './Page/Home'
+import Work from './component/work'
 
 const App = () => {
   return (
     <div className='bg-background'>
-         <Nav />
-         <Hero />
-         <Stack />
-         <Think />
+         
+        <Routes>
 
-         {/* <Arr /> */}
+           <Route path='/' element={<Home/>}></Route>
+           <Route path='/works' element={<Work/>}></Route>
+          
 
-         {/* <Routes>
-            <Route path='/arr' element={<Arr />} />
-         </Routes> */}
+        </Routes>
     </div>
   )
 }

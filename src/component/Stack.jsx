@@ -34,7 +34,7 @@ const Stack = () => {
   const colors = ['bg-blue-500', 'bg-purple-500', 'bg-pink-500', 'bg-green-500', 'bg-orange-500', 'bg-cyan-500'];
   
   return (
-    <div className='p-4 sm:p-6 md:p-8 mt-8'>
+    <div className='p-4 sm:p-6 md:p-8 mt-8' id='stack'>
         <div className='w-full mb-6 sm:mb-8'>
               <span className='text-primary text-sm sm:text-base'>the stack</span>
          <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold mt-2 leading-tight'>Stack architecture, end to end.</h2>
