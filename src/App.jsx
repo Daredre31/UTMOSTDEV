@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 // import Think from './component/Think'
 import Home from './Page/Home'
 import Work from './component/work'
+import ContactFooter from './component/footer'
 
 const App = () => {
   return (
@@ -15,8 +16,6 @@ const App = () => {
 
            <Route path='/' element={<Home/>}></Route>
            <Route path='/works' element={<Work/>}></Route>
-          
-
         </Routes>
     </div>
   )

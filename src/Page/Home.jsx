@@ -3,6 +3,7 @@ import Nav from '../component/Nav'
 import Hero from '../component/Hero'
 import Stack from '../component/Stack'
 import Think from '../component/Think'
+import ContactFooter from '../component/footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Hero />
     <Stack />
     <Think />  
+    <ContactFooter /> 
     </div>
   )
 }
