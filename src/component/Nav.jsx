@@ -40,7 +40,7 @@ const Nav = () => {
             <span onClick={handleclick}>work</span>
             <Link to='system'><span >system</span></Link>
                     <button className='border border-accent bg-primary h-10 rounded-md
-             text-accent-foreground p-2 text-center font-semibold w-80'>get in touch</button>
+             text-accent-foreground p-2 text-center font-semibold w-full'>get in touch</button>
                 </div>
             )
         } </div>
