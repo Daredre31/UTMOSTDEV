@@ -116,13 +116,13 @@ export default function ContactFooter() {
           </button>
 
           <div className="flex items-center gap-2">
-            <a href="#" aria-label="GitHub" className="icon-btn w-11 h-11 flex items-center justify-center rounded-xl">
+            <a href="https://github.com/daredre31" aria-label="GitHub" className="icon-btn w-11 h-11 flex items-center justify-center rounded-xl">
               <FaGithub size={18} />
             </a>
             <a href="#" aria-label="LinkedIn" className="icon-btn w-11 h-11 flex items-center justify-center rounded-xl">
               <FaLinkedin size={18} />
             </a>
-            <a href="#" aria-label="Twitter" className="icon-btn w-11 h-11 flex items-center justify-center rounded-xl">
+            <a href="https://x.com/Datdre_tech" aria-label="Twitter" className="icon-btn w-11 h-11 flex items-center justify-center rounded-xl">
               <FaXTwitter size={18} />
             </a>
           </div>

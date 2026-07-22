@@ -13,11 +13,11 @@ const Nav = () => {
   return (
     <div className=''>
     <nav className='flex justify-between p-4 bg-secondary items-center '>
-        <div><span className='text-xl text-blue-700'>DAREDRE</span></div>
+        <div><span className='text-xl text-blue-700 cursor-pointer'>DAREDRE</span></div>
         <div className='md:flex gap-8 hidden text-muted-foreground'>
-           <Link to='stack'><span>stack</span></Link> 
-            <span onClick={handleclick}>work</span>
-            <Link to='system'><span >system</span></Link>
+           <Link to='stack'><span className='cursor-pointer'>stack</span></Link> 
+            <span onClick={handleclick} className='cursor-pointer'>work</span>
+            <Link to='system'><span className='cursor-pointer'>system</span></Link>
             
         </div>
         <div>
@@ -36,7 +36,7 @@ const Nav = () => {
                 <div className=' text-muted-foreground flex flex-col 
                   w-full lg:hidden ml-8 gap-4
                 bg-background'>
-                    <Link to='stack'><span>stack</span></Link> 
+                    <Link to='stack'><span className='cursor-pointer'>stack</span></Link> 
             <span onClick={handleclick}>work</span>
             <Link to='system'><span >system</span></Link>
                     <button className='border border-accent bg-primary h-10 rounded-md
