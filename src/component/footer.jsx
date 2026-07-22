@@ -33,7 +33,7 @@ export default function ContactFooter() {
 
   return (
     <div
-      className="min-h-screen w-full flex items-center justify-center p-6"
+      className=" w-full flex items-center justify-center p-6"
       style={{ background: colors.background }}
     >
       <style>{`
