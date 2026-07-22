@@ -49,10 +49,14 @@ const Nav = () => {
                     <Link to='stack' onClick={closeMenu}><span className='cursor-pointer'>stack</span></Link>
                     <span onClick={handleclick} className='cursor-pointer'>work</span>
                     <Link to='system' onClick={closeMenu}><span className='cursor-pointer'>system</span></Link>
-                    <button className='border border-accent bg-primary h-10 rounded-md
+
+                    <Link to='footer'>
+                     <button className='border border-accent bg-primary h-10 rounded-md
                         text-accent-foreground p-2 text-center font-semibold w-full'>
                         get in touch
                     </button>
+                    </Link>
+                   
                 </div>
             )}
         </div>
